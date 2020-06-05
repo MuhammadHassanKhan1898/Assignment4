@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Gabriela ;
+    src: url("./fonts/Gabriela-Regular.ttf");
+}
+.main1{
+    background-color:  #F0F8FF;
+}
+
+
+
+.name{
+    borr: 2px solid red;
+    text-decoration: underline;
+    text-decoration-color: #006400;
+    color: red;
+    font-weight: bold;
+    font-family: Gabriela ;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px gray;
+    
+}
+
+@media screen and (max-width : 900px){
+    .name{
+        font-size: 20px;}
+}
+
+@media screen and (max-width : 600px){
+    .name{
+        font-size: 14px;}
+}
+
+
+navbar{
+    background-color: #D3D3D3 !important;
+}
+.nav-link{
+    font-weight: bold;
+    color: white !important;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+@media screen and (max-width : 900px){
+    .navbar-brand>img{
+        width: 150px;
+        }
+}
+
+
+@media screen and (max-width : 600px){
+    .navbar-brand>img{
+        width: 120px;
+        }
+}
+
+
+.one{
+    border: ;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+.circle{
+    width: 200px;
+    height: 250px;
+    float: left;
+
+}
+.img-thumbnail{
+
+}
+.nam{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 150px;
+    color: white;
+}
+
+@media screen and (max-width : 300px){
+   .nam {
+        font-size: 10px;
+        }
+}
+
+
+.card1{
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+
+.img-responsive{
+    max-width: 200px;
+     height: 270px;
+     display: block;
+}
+
+
+
+.bkg{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS97yzHCGzrQNQngtQI7Dx8UheA-D4ws2P0ouJqkHbbgEl-8IXL&usqp=CAU);
+}
+
+.man{color: rgb(162, 240, 18);
+    text-decoration: underline white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.card-text{
+    color: black;
+    font-size:;
+    font-family: Gabriela ;
+    text-align: justify;
+    margin-top: px;
+    
+    font-size: 30px;
+}
+
+@media screen and (max-width : 900px){
+    .card-text{
+        font-size: 24px;
+        font-weight: lighter;
+        }
+}
+
+@media screen and (max-width : 700px){
+    .card-text{
+        font-size: 20px;
+        font-weight: lighter;
+        }
+}
+
+
+@media screen and (max-width : 300px){
+    .card-text{
+        font-size: 10px;
+        }
+}
+
+
+@media screen and (max-width : 400px){
+    .card-text{
+        font-size: 12px;
+        }
+}
+
+
+.foot1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+} 
+.f1,.f2,.f3{
+    width: 300px;
+color: white;
+font-family: Gabriela ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width : 900px){
+    .f1,.f2,.f3{
+        font-size: 16px;}
+}
+
+@media screen and (max-width : 600px){
+    .f1,.f2,.f3{
+        font-size: 13px;}
+}
+
+
+.f2{
+    text-decoration: underline green;
+}
+.con1{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+li{
+    display: inline;
+}
+.fb{
+    margin-left: 10px;
+}
+
+@media screen and (max-width : 750px){
+.f2{
+    width: 400px;
+}
+
+}
+
+@media screen and (max-width : 360px){
+    .f2{
+        width: 300px;
+    }
+    
+    }
+    
+.copy{
+    margin-left: 100px;
+}
