@@ -64,10 +64,13 @@ navbar{
 
 .circle{
     width: 200px;
-    height: 250px;
+    height: 230px;
     float: left;
+    border: 2px solid red;
 
 }
+
+
 .img-thumbnail{
 
 }
@@ -81,8 +84,41 @@ navbar{
 @media screen and (max-width : 300px){
    .nam {
         font-size: 10px;
+        padding-left: 0px;
         }
 }
+
+@media screen and (max-width : 400px){
+    .nam {
+         font-size: 10px;
+         padding-left: 0x;
+         }
+ }
+
+ @media screen and (max-width : 400px ){ 
+    .nam {
+         font-size: 8px !important;
+         padding-left: 0px !important;
+         }
+ }
+
+
+
+ @media screen and (max-width : 800px ){ 
+    .nam {
+         font-size: 17px !important;
+         padding-left: 50px !important;
+         }
+ }
+
+ @media screen and (max-width : 900px){
+    .nam {
+         font-size: 12px;
+         padding-left: 70px;
+         }
+ }
+
+ 
 
 
 .card1{
@@ -92,10 +128,32 @@ navbar{
 
 
 .img-responsive{
-    max-width: 200px;
-     height: 270px;
+    max-width: 190px;
+     height: 230px;
      display: block;
+     float: left;
 }
+@media screen and (max-width : 300px){
+    .img-responsive {
+         width:100px ;
+         height: 140px;
+         }
+ }
+
+ @media screen and (max-width : 400px){
+    .img-responsive {
+         width:100px !important;
+         height: 120px !important;
+         }
+ }
+
+ 
+ @media screen and (max-width : 900px){
+    .img-responsive {
+         width:150px ;
+         height: 180px;
+         }
+ }
 
 
 
@@ -137,14 +195,16 @@ navbar{
 
 @media screen and (max-width : 300px){
     .card-text{
-        font-size: 10px;
+        font-size: 8px;
+        font-weight: lighter;
         }
 }
 
 
 @media screen and (max-width : 400px){
     .card-text{
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: lighter;
         }
 }
 
@@ -160,7 +220,7 @@ navbar{
 .f1,.f2,.f3{
     width: 300px;
 color: white;
-font-family: Gabriela ;
+font-family:  ;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
